@@ -1,0 +1,10 @@
+Cuando consulto GET /reportes después de agregar un reporte, el servidor devuelve un array en formato JSON con todos los reportes guardados en memoria. Cada reporte tiene un id, tipo y descripcion. Si no hay reportes, devuelve un array vacío [].
+
+Ejemplo de respuesta con un reporte:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
